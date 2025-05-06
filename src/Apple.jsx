@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faApple } from '@fortawesome/free-brands-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
@@ -73,7 +73,7 @@ function Apple() {
     return (
         <>
             {/*Navbar starts*/}
-            <nav className=" bg-white border-gray-200  dark:bg-gray-900 fixed top-0 left-0 w-full z-50">
+            <nav className="bg-white border-gray-200  dark:bg-gray-900 fixed top-0 left-0 w-full z-50">
                 <div className="flex justify-between md:justify-center sm:justify-between md: items-center md:p-3">
                     <a href="https://www.apple.com/" className="flex items-center px-4" style={fontstyle}>
                         <FontAwesomeIcon icon={faApple} />
