@@ -303,7 +303,7 @@ function Apple() {
                         <button type="submit" className="ms-[11px] px-[21px] py-[8px] border-1 rounded-3xl text-blue-500 cursor-pointer hover:text-white hover:bg-blue-500" style={fontstyle}>Buy</button>
                     </div>
                     <div className="flex justify-center items-center py-8">
-                        <img src="/images/apple-1.png" />
+                        <img src="/images/apple-1.png" alt="Iphone-16e"/>
                     </div>
                     <div>
                         <p><span className="highlight text-xl font-semibold leading-1.5 " style={fontstyle}>Built for Apple Intelligence.</span></p>
